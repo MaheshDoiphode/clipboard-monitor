@@ -36,8 +36,6 @@ Not necessarily but can follow if not working - The `keyboard` library requires 
 
 ## Long Description
 ```
-Sure, here's a detailed technical description of the Clipboard Monitor project:
-
 The Clipboard Monitor is a utility designed to persistently store and track data that a user copies to their clipboard. This is achieved through a combination of Python scripting for clipboard monitoring and a Spring Boot application for data handling and storage in a MongoDB database.
 
 The Python script is the primary driver of the clipboard monitoring functionality. It utilizes the `pyperclip` and `keyboard` libraries to detect when a user copies something to their clipboard. The `keyboard` library is used to register a callback function that is triggered whenever the `ctrl+c` key combination is pressed. This callback function then uses the `pyperclip` library to retrieve the current clipboard data.
@@ -53,5 +51,5 @@ In terms of prerequisites, the Clipboard Monitor requires Python 3.6 or later fo
 
 ## Short Description
 ```
-
+"Developed Clipboard Monitor | Python, Spring Boot, MongoDB | Monitors and stores clipboard data | Provides persistent clipboard history | Solves issue of lost clipboard data | Enhances productivity in tasks involving extensive copy-pasting"
 ```
